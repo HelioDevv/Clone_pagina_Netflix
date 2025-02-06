@@ -1,6 +1,6 @@
 # 🎬🎞️ Netflix Clone 🎬🎞️
 
-Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **CSS** e **JavaScript**. O objetivo é aprimorar habilidades em **layout responsivo**, **carrossel de imagens** e **design moderno**.
+Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **CSS** e **JavaScript**. O objetivo é aprimorar habilidades em **layout responsivo**, **carrossel de imagens** e **design moderno**. O projeto se destaca pela sua responsividade, garantindo que a interface se adapte corretamente a telas pequenas, médias e grandes. Além disso, a navegação é intuitiva, com um menu fixo, botões para interações rápidas e um banner principal promovendo um título em destaque.
 
 ## 🚀 Tecnologias Utilizadas
 
