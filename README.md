@@ -41,15 +41,20 @@ Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **C
 ### 🔹 HTML
 ```html
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
+    <meta name="viewport" content="width= , initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--Resposividade-->
     <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
@@ -57,7 +62,7 @@ Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **C
             <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
+                <a href="#">Série</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
             </nav>
@@ -68,13 +73,13 @@ Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **C
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">ROUND 6</h3>
-                <p class="descricao">Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência...</p>
+                <p class="descricao">Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais. Assista agora a nova temporada de Round 6 que está imperdível</p>
                 <div class="botoes">
-                    <button class="botao">
+                    <button role="button" class="botao">
                         <i class="fa-solid fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button class="botao">
+                    <button role="button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -83,18 +88,49 @@ Este projeto é um clone da interface da Netflix, desenvolvido com **HTML**, **C
         </div>
     </main>
 
+
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-filme" src="img/mini1.jpg" alt=""></div>
-            <div class="item"><img class="box-filme" src="img/mini2.jpg" alt=""></div>
+            <div class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
+            </div>
         </div>
     </div>
+
 
     <script src="https://kit.fontawesome.com/dcd2795583.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
-</body>
+
+</body> 
 </html>
 ```
 
