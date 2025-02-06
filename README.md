@@ -136,6 +136,34 @@ header .logo {
 }
 ```
 
+## 📱 Media Queries (Responsividade)
+```css
+@media (max-width: 768px) {
+    .filme-principal .titulo {
+        font-size: 30px;
+    }
+    .filme-principal .descricao {
+        font-size: 14px;
+    }
+    .botao {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filme-principal {
+        height: 300px;
+    }
+    .filme-principal .titulo {
+        font-size: 24px;
+    }
+    .filme-principal .descricao {
+        font-size: 12px;
+    }
+}
+```
+
 ## 🔗 Links e Recursos
 
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) - Biblioteca utilizada para o carrossel.
